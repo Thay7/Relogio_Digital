@@ -8,7 +8,7 @@ const relogio = setInterval(function time() {
     let dateToday = new Date();
     let hora = dateToday.getHours(); //passando a hora exata pra variavel
     let minuto = dateToday.getMinutes(); //passandoo os minutos exatos pra variavel
-    let segundo = dateToday.getSeconds(); //passando o segundos exatos pra variavel
+    let segundo = dateToday.getSeconds(); //passando os segundos exatos pra variavel
 
     //verificação para ver se precisa do 0 antes da hora, minutos e segundo
     if (hora < 10) hora = '0' + hora;
